@@ -52,7 +52,10 @@ public class Main {
                 max = f;
             }
         }
+
         System.out.println(max);
+
+
         long startTs = System.currentTimeMillis(); // start time
         for (String text : texts) {
             int maxSize = 0;
